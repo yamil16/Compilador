@@ -1,0 +1,65 @@
+programa
+
+integer a, b,e,f;
+uinteger c, d,g,h;
+integer matrix x[_i3][_i4] {_i5, _i2, _i1; _i3, _i4, _i6}; &&@1asd
+uinteger matrix y[_i3][_i4] {_ui5, _ui2, _ui1; _ui3, _ui4, _ui6}; &&@1asd
+allow uinteger to integer;
+{
+x[_i2][_i1] := _i4;
+if(x[_i2][_i1] = _i4) print("OK_matriz_integer"); endif;
+y[_i2][_i1] := _ui4;
+if(y[_i2][_i1] = _ui4) print("OK_matriz_uinteger"); endif;
+a := _i1 + _i1;
+b := _i2 / a;
+c := _ui1;
+d := _ui2;
+
+h:=_i3;
+e := _i9;
+h := a * b + a * b-- + a-- * b + a-- * a--+a/b+a/h--+h--/a+h--/h--;
+if (h = e)
+	print ("es 9");
+else
+	print ("NO veintiseis mayor veinticinco");
+endif;
+
+x[_i1][_i1]:=_i2;
+x[_i1][_i2]:=_i1;
+y[_i1][_i2]:=_i3;
+
+h := x[_i1][_i1]* x[_i1][_i2] + x[_i1][_i1]* x[_i1][_i2]--;
+e := _i2;
+if (h = e)
+	print ("es 2");
+else
+	print ("NO veintiseis mayor veinticinco");
+endif;
+
+h:=h+ x[_i1][_i1]-- * x[_i1][_i2] + x[_i1][_i1]-- * x[_i1][_i1]--;
+e := _i4;
+if (h = e)
+	print ("es 4");
+else
+	print ("NO veintiseis mayor veinticinco");
+endif;
+
+
+h:=h+x[_i1][_i1]/b+x[_i1][_i1]/y[_i1][_i2]--+y[_i1][_i2]--/x[_i1][_i1];
+e := _i8;
+if (h = e)
+	print ("es 8");
+else
+	print ("NO veintiseis mayor veinticinco");
+endif;
+
+
+h:=h+y[_i1][_i2]--/y[_i1][_i2]--;
+e := _i9;
+if (h = e)
+	print ("es 9");
+else
+	print ("NO veintiseis mayor veinticinco");
+endif;
+
+}

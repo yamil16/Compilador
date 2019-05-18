@@ -1,0 +1,20 @@
+programa
+integer a, b, c, d, e;
+integer h, i, y;
+
+{
+a := _i-2;
+b := _i-1;
+c := _i0;
+d := _i1;
+e := _i2;
+i := _i5;
+
+h := d * e + d * e-- + e-- * d + e-- * e--;
+
+if (h = i)
+	print ("veintiseis mayor veinticinco");
+else
+	print ("NO veintiseis mayor veinticinco");
+endif;
+}

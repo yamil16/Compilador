@@ -1,0 +1,521 @@
+
+ 
+sentencias validas reconocidas: 
+sentencia: sentencia de ASIGNACION . En la linea: 10
+sentencia: sentencia de ASIGNACION . En la linea: 11
+sentencia: sentencia de ASIGNACION . En la linea: 14
+sentencia: sentencia FOR . En la linea: 14
+sentencia: sentencia de ASIGNACION . En la linea: 15
+sentencia: sentencia FOR . En la linea: 16
+sentencia: sentencia de ASIGNACION . En la linea: 18
+sentencia: sentencia de ASIGNACION . En la linea: 19
+sentencia: sentencia PRINT . En la linea: 20
+sentencia: sentencia de ASIGNACION . En la linea: 21
+sentencia: sentencia de ASIGNACION . En la linea: 22
+sentencia: sentencia PRINT . En la linea: 24
+sentencia: sentencia PRINT . En la linea: 26
+sentencia: sentencia IF . En la linea: 27
+sentencia: sentencia de ASIGNACION . En la linea: 29
+sentencia: sentencia de ASIGNACION . En la linea: 30
+sentencia: sentencia de ASIGNACION . En la linea: 32
+sentencia: sentencia de ASIGNACION . En la linea: 33
+sentencia: sentencia PRINT . En la linea: 35
+sentencia: sentencia PRINT . En la linea: 37
+sentencia: sentencia IF . En la linea: 38
+sentencia: sentencia de ASIGNACION . En la linea: 40
+sentencia: sentencia de ASIGNACION . En la linea: 41
+sentencia: sentencia de ASIGNACION . En la linea: 43
+sentencia: sentencia de ASIGNACION . En la linea: 44
+sentencia: sentencia PRINT . En la linea: 46
+sentencia: sentencia PRINT . En la linea: 48
+sentencia: sentencia IF . En la linea: 49
+sentencia: sentencia de ASIGNACION . En la linea: 51
+sentencia: sentencia de ASIGNACION . En la linea: 52
+sentencia: sentencia de ASIGNACION . En la linea: 54
+sentencia: sentencia de ASIGNACION . En la linea: 55
+sentencia: sentencia PRINT . En la linea: 57
+sentencia: sentencia PRINT . En la linea: 59
+sentencia: sentencia IF . En la linea: 60
+
+
+Tabla de simboloes resultante: 
+Clave: var@f257,	 Token: ID,	Lexema: f,	uso: var@
+Clave: es_6_matriz_completa__MULTIPLICACIONES_INTEGER276,	 Token: CADENA_MULTILINEA,	Lexema: es_6_matriz_completa__MULTIPLICACIONES_INTEGER
+Clave: es_6_matriz_completa__DIVISION_INTEGER276,	 Token: CADENA_MULTILINEA,	Lexema: es_6_matriz_completa__DIVISION_INTEGER
+Clave: 1268,	 Token: CONSTANTE_ENTERA,	Lexema: 1
+Clave: empiezo_a_operar276,	 Token: CADENA_MULTILINEA,	Lexema: empiezo_a_operar
+Clave: 1267,	 Token: CONSTANTE_POSITIVA,	Lexema: 1
+Clave: mat@y257,	 Token: ID,	Lexema: y,	uso: mat@
+Clave: 6268,	 Token: CONSTANTE_ENTERA,	Lexema: 6
+Clave: 6267,	 Token: CONSTANTE_POSITIVA,	Lexema: 6
+Clave: var@d257,	 Token: ID,	Lexema: d,	uso: var@
+Clave: 4268,	 Token: CONSTANTE_ENTERA,	Lexema: 4
+Clave: 4267,	 Token: CONSTANTE_POSITIVA,	Lexema: 4
+Clave: var@b257,	 Token: ID,	Lexema: b,	uso: var@
+Clave: var@g257,	 Token: ID,	Lexema: g,	uso: var@
+Clave: es_6_matriz_completa__DIVISION_UINTEGER276,	 Token: CADENA_MULTILINEA,	Lexema: es_6_matriz_completa__DIVISION_UINTEGER
+Clave: es_6_matriz_completa_MULTIPLICACIONES_UINTEGER276,	 Token: CADENA_MULTILINEA,	Lexema: es_6_matriz_completa_MULTIPLICACIONES_UINTEGER
+Clave: 2268,	 Token: CONSTANTE_ENTERA,	Lexema: 2
+Clave: 2267,	 Token: CONSTANTE_POSITIVA,	Lexema: 2
+Clave: prog@programa257,	 Token: ID,	Lexema: programa,	uso: prog@
+Clave: var@e257,	 Token: ID,	Lexema: e,	uso: var@
+Clave: NO_es_6_matriz_completa_DIVISION_INTEGER_no_anda276,	 Token: CADENA_MULTILINEA,	Lexema: NO_es_6_matriz_completa_DIVISION_INTEGER_no_anda
+Clave: NO_es_6_matriz_completa_MULTIPLICACIONES_INTEGER276,	 Token: CADENA_MULTILINEA,	Lexema: NO_es_6_matriz_completa_MULTIPLICACIONES_INTEGER
+Clave: NO_es_6_matriz_completa_DIVISION_UINTEGER_no_anda276,	 Token: CADENA_MULTILINEA,	Lexema: NO_es_6_matriz_completa_DIVISION_UINTEGER_no_anda
+Clave: 0268,	 Token: CONSTANTE_ENTERA,	Lexema: 0
+Clave: mat@x257,	 Token: ID,	Lexema: x,	uso: mat@
+Clave: 5268,	 Token: CONSTANTE_ENTERA,	Lexema: 5
+Clave: 5267,	 Token: CONSTANTE_POSITIVA,	Lexema: 5
+Clave: var@c257,	 Token: ID,	Lexema: c,	uso: var@
+Clave: var@h257,	 Token: ID,	Lexema: h,	uso: var@
+Clave: 3268,	 Token: CONSTANTE_ENTERA,	Lexema: 3
+Clave: 3267,	 Token: CONSTANTE_POSITIVA,	Lexema: 3
+Clave: NO_es_6_matriz_completa_MULTIPLICACIONES_UINTEGER_no_anda276,	 Token: CADENA_MULTILINEA,	Lexema: NO_es_6_matriz_completa_MULTIPLICACIONES_UINTEGER_no_anda
+Clave: var@a257,	 Token: ID,	Lexema: a,	uso: var@
+
+
+Tercetos detectados: 
+0: (:=, b, 1) tipo: Integer
+1: (:=, f, 0) tipo: Integer
+2: (:=, a, 1) tipo: Integer
+Label3
+4: (<, b, a) tipo: Integer
+5: (B>=, [4], (28)) tipo: null
+6: (:=, e, 1) tipo: Integer
+Label7
+8: (<, b, e) tipo: Integer
+9: (B>=, [8], (22)) tipo: null
+10: (-, a, 1) tipo: Integer
+11: (chequeoFila, [10], mat@x) tipo: Integer
+12: (-, e, 1) tipo: Integer
+13: (chequeoCol, [12], mat@x) tipo: Integer
+14: (*, [11], 3) tipo: Integer
+15: (+, [14], [13]) tipo: Integer
+16: (*, [15], 2) tipo: Integer
+17: (operacion, [16], mat@x) tipo: null
+18: (:=, [17], f) tipo: Integer
+19: (-, e, 1) tipo: Integer
+20: (:=, e, [19]) tipo: Integer
+21: (BI, (7), -) tipo: null
+Label22
+23: (+, f, 1) tipo: Integer
+24: (:=, f, [23]) tipo: Integer
+25: (-, a, 1) tipo: Integer
+26: (:=, a, [25]) tipo: Integer
+27: (BI, (3), -) tipo: null
+Label28
+29: (-, 1, 1) tipo: Integer
+30: (chequeoFila, [29], mat@x) tipo: Integer
+31: (-, 1, 1) tipo: Integer
+32: (chequeoCol, [31], mat@x) tipo: Integer
+33: (*, [30], 3) tipo: Integer
+34: (+, [33], [32]) tipo: Integer
+35: (*, [34], 2) tipo: Integer
+36: (operacion, [35], mat@x) tipo: null
+37: (:=, [36], 2) tipo: Integer
+38: (-, 1, 1) tipo: Integer
+39: (chequeoFila, [38], mat@x) tipo: Integer
+40: (-, 2, 1) tipo: Integer
+41: (chequeoCol, [40], mat@x) tipo: Integer
+42: (*, [39], 3) tipo: Integer
+43: (+, [42], [41]) tipo: Integer
+44: (*, [43], 2) tipo: Integer
+45: (operacion, [44], mat@x) tipo: null
+46: (:=, [45], 1) tipo: Integer
+47: (PRINT, empiezo_a_operar, -) tipo: null
+48: (-, 1, 1) tipo: Integer
+49: (chequeoFila, [48], mat@x) tipo: Integer
+50: (-, 1, 1) tipo: Integer
+51: (chequeoCol, [50], mat@x) tipo: Integer
+52: (*, [49], 3) tipo: Integer
+53: (+, [52], [51]) tipo: Integer
+54: (*, [53], 2) tipo: Integer
+55: (operacion, [54], mat@x) tipo: null
+56: (-, 1, 1) tipo: Integer
+57: (chequeoFila, [56], mat@x) tipo: Integer
+58: (-, 2, 1) tipo: Integer
+59: (chequeoCol, [58], mat@x) tipo: Integer
+60: (*, [57], 3) tipo: Integer
+61: (+, [60], [59]) tipo: Integer
+62: (*, [61], 2) tipo: Integer
+63: (operacion, [62], mat@x) tipo: null
+64: (*, [55], [63]) tipo: Integer
+65: (-, 1, 1) tipo: Integer
+66: (chequeoFila, [65], mat@x) tipo: Integer
+67: (-, 1, 1) tipo: Integer
+68: (chequeoCol, [67], mat@x) tipo: Integer
+69: (*, [66], 3) tipo: Integer
+70: (+, [69], [68]) tipo: Integer
+71: (*, [70], 2) tipo: Integer
+72: (operacion, [71], mat@x) tipo: null
+73: (-, [72], 1) tipo: Integer
+74: (-, 1, 1) tipo: Integer
+75: (chequeoFila, [74], mat@x) tipo: Integer
+76: (-, 2, 1) tipo: Integer
+77: (chequeoCol, [76], mat@x) tipo: Integer
+78: (*, [75], 3) tipo: Integer
+79: (+, [78], [77]) tipo: Integer
+80: (*, [79], 2) tipo: Integer
+81: (operacion, [80], mat@x) tipo: null
+82: (*, [73], [81]) tipo: Integer
+83: (+, [64], [82]) tipo: Integer
+84: (-, 1, 1) tipo: Integer
+85: (chequeoFila, [84], mat@x) tipo: Integer
+86: (-, 1, 1) tipo: Integer
+87: (chequeoCol, [86], mat@x) tipo: Integer
+88: (*, [85], 3) tipo: Integer
+89: (+, [88], [87]) tipo: Integer
+90: (*, [89], 2) tipo: Integer
+91: (operacion, [90], mat@x) tipo: null
+92: (-, [91], 1) tipo: Integer
+93: (-, 1, 1) tipo: Integer
+94: (chequeoFila, [93], mat@x) tipo: Integer
+95: (-, 1, 1) tipo: Integer
+96: (chequeoCol, [95], mat@x) tipo: Integer
+97: (*, [94], 3) tipo: Integer
+98: (+, [97], [96]) tipo: Integer
+99: (*, [98], 2) tipo: Integer
+100: (operacion, [99], mat@x) tipo: null
+101: (-, [100], 1) tipo: Integer
+102: (*, [92], [101]) tipo: Integer
+103: (+, [83], [102]) tipo: Integer
+104: (-, 1, 1) tipo: Integer
+105: (chequeoFila, [104], mat@x) tipo: Integer
+106: (-, 1, 1) tipo: Integer
+107: (chequeoCol, [106], mat@x) tipo: Integer
+108: (*, [105], 3) tipo: Integer
+109: (+, [108], [107]) tipo: Integer
+110: (*, [109], 2) tipo: Integer
+111: (operacion, [110], mat@x) tipo: null
+112: (-, 1, 1) tipo: Integer
+113: (chequeoFila, [112], mat@x) tipo: Integer
+114: (-, 1, 1) tipo: Integer
+115: (chequeoCol, [114], mat@x) tipo: Integer
+116: (*, [113], 3) tipo: Integer
+117: (+, [116], [115]) tipo: Integer
+118: (*, [117], 2) tipo: Integer
+119: (operacion, [118], mat@x) tipo: null
+120: (-, [119], 1) tipo: Integer
+121: (*, [111], [120]) tipo: Integer
+122: (+, [103], [121]) tipo: Integer
+123: (inttouint, [122], -) tipo: Uinteger
+124: (:=, h, [123]) tipo: Uinteger
+125: (:=, e, 6) tipo: Integer
+126: (inttouint, e, -) tipo: Uinteger
+127: (=, h, [126]) tipo: Uinteger
+128: (B!=, [127], (131)) tipo: null
+129: (PRINT, es_6_matriz_completa__MULTIPLICACIONES_INTEGER, -) tipo: null
+130: (BI, (133), -) tipo: null
+Label131
+132: (PRINT, NO_es_6_matriz_completa_MULTIPLICACIONES_INTEGER, -) tipo: null
+Label133
+134: (-, 1, 1) tipo: Integer
+135: (chequeoFila, [134], mat@y) tipo: Integer
+136: (-, 1, 1) tipo: Integer
+137: (chequeoCol, [136], mat@y) tipo: Integer
+138: (*, [135], 3) tipo: Integer
+139: (+, [138], [137]) tipo: Integer
+140: (*, [139], 2) tipo: Integer
+141: (operacion, [140], mat@y) tipo: null
+142: (:=, [141], 2) tipo: Uinteger
+143: (-, 1, 1) tipo: Integer
+144: (chequeoFila, [143], mat@y) tipo: Integer
+145: (-, 2, 1) tipo: Integer
+146: (chequeoCol, [145], mat@y) tipo: Integer
+147: (*, [144], 3) tipo: Integer
+148: (+, [147], [146]) tipo: Integer
+149: (*, [148], 2) tipo: Integer
+150: (operacion, [149], mat@y) tipo: null
+151: (:=, [150], 1) tipo: Uinteger
+152: (-, 1, 1) tipo: Integer
+153: (chequeoFila, [152], mat@y) tipo: Integer
+154: (-, 1, 1) tipo: Integer
+155: (chequeoCol, [154], mat@y) tipo: Integer
+156: (*, [153], 3) tipo: Integer
+157: (+, [156], [155]) tipo: Integer
+158: (*, [157], 2) tipo: Integer
+159: (operacion, [158], mat@y) tipo: null
+160: (-, 1, 1) tipo: Integer
+161: (chequeoFila, [160], mat@y) tipo: Integer
+162: (-, 2, 1) tipo: Integer
+163: (chequeoCol, [162], mat@y) tipo: Integer
+164: (*, [161], 3) tipo: Integer
+165: (+, [164], [163]) tipo: Integer
+166: (*, [165], 2) tipo: Integer
+167: (operacion, [166], mat@y) tipo: null
+168: (*, [159], [167]) tipo: Uinteger
+169: (-, 1, 1) tipo: Integer
+170: (chequeoFila, [169], mat@y) tipo: Integer
+171: (-, 1, 1) tipo: Integer
+172: (chequeoCol, [171], mat@y) tipo: Integer
+173: (*, [170], 3) tipo: Integer
+174: (+, [173], [172]) tipo: Integer
+175: (*, [174], 2) tipo: Integer
+176: (operacion, [175], mat@y) tipo: null
+177: (-, [176], 1) tipo: Uinteger
+178: (-, 1, 1) tipo: Integer
+179: (chequeoFila, [178], mat@y) tipo: Integer
+180: (-, 2, 1) tipo: Integer
+181: (chequeoCol, [180], mat@y) tipo: Integer
+182: (*, [179], 3) tipo: Integer
+183: (+, [182], [181]) tipo: Integer
+184: (*, [183], 2) tipo: Integer
+185: (operacion, [184], mat@y) tipo: null
+186: (*, [177], [185]) tipo: Uinteger
+187: (+, [168], [186]) tipo: Uinteger
+188: (-, 1, 1) tipo: Integer
+189: (chequeoFila, [188], mat@y) tipo: Integer
+190: (-, 1, 1) tipo: Integer
+191: (chequeoCol, [190], mat@y) tipo: Integer
+192: (*, [189], 3) tipo: Integer
+193: (+, [192], [191]) tipo: Integer
+194: (*, [193], 2) tipo: Integer
+195: (operacion, [194], mat@y) tipo: null
+196: (-, [195], 1) tipo: Uinteger
+197: (-, 1, 1) tipo: Integer
+198: (chequeoFila, [197], mat@y) tipo: Integer
+199: (-, 1, 1) tipo: Integer
+200: (chequeoCol, [199], mat@y) tipo: Integer
+201: (*, [198], 3) tipo: Integer
+202: (+, [201], [200]) tipo: Integer
+203: (*, [202], 2) tipo: Integer
+204: (operacion, [203], mat@y) tipo: null
+205: (-, [204], 1) tipo: Uinteger
+206: (*, [196], [205]) tipo: Uinteger
+207: (+, [187], [206]) tipo: Uinteger
+208: (-, 1, 1) tipo: Integer
+209: (chequeoFila, [208], mat@y) tipo: Integer
+210: (-, 1, 1) tipo: Integer
+211: (chequeoCol, [210], mat@y) tipo: Integer
+212: (*, [209], 3) tipo: Integer
+213: (+, [212], [211]) tipo: Integer
+214: (*, [213], 2) tipo: Integer
+215: (operacion, [214], mat@y) tipo: null
+216: (-, 1, 1) tipo: Integer
+217: (chequeoFila, [216], mat@y) tipo: Integer
+218: (-, 1, 1) tipo: Integer
+219: (chequeoCol, [218], mat@y) tipo: Integer
+220: (*, [217], 3) tipo: Integer
+221: (+, [220], [219]) tipo: Integer
+222: (*, [221], 2) tipo: Integer
+223: (operacion, [222], mat@y) tipo: null
+224: (-, [223], 1) tipo: Uinteger
+225: (*, [215], [224]) tipo: Uinteger
+226: (+, [207], [225]) tipo: Uinteger
+227: (:=, h, [226]) tipo: Uinteger
+228: (:=, e, 6) tipo: Integer
+229: (inttouint, e, -) tipo: Uinteger
+230: (=, h, [229]) tipo: Uinteger
+231: (B!=, [230], (234)) tipo: null
+232: (PRINT, es_6_matriz_completa_MULTIPLICACIONES_UINTEGER, -) tipo: null
+233: (BI, (236), -) tipo: null
+Label234
+235: (PRINT, NO_es_6_matriz_completa_MULTIPLICACIONES_UINTEGER_no_anda, -) tipo: null
+Label236
+237: (-, 1, 1) tipo: Integer
+238: (chequeoFila, [237], mat@x) tipo: Integer
+239: (-, 2, 1) tipo: Integer
+240: (chequeoCol, [239], mat@x) tipo: Integer
+241: (*, [238], 3) tipo: Integer
+242: (+, [241], [240]) tipo: Integer
+243: (*, [242], 2) tipo: Integer
+244: (operacion, [243], mat@x) tipo: null
+245: (:=, [244], 2) tipo: Integer
+246: (-, 1, 1) tipo: Integer
+247: (chequeoFila, [246], mat@x) tipo: Integer
+248: (-, 1, 1) tipo: Integer
+249: (chequeoCol, [248], mat@x) tipo: Integer
+250: (*, [247], 3) tipo: Integer
+251: (+, [250], [249]) tipo: Integer
+252: (*, [251], 2) tipo: Integer
+253: (operacion, [252], mat@x) tipo: null
+254: (:=, [253], 1) tipo: Integer
+255: (-, 1, 1) tipo: Integer
+256: (chequeoFila, [255], mat@x) tipo: Integer
+257: (-, 2, 1) tipo: Integer
+258: (chequeoCol, [257], mat@x) tipo: Integer
+259: (*, [256], 3) tipo: Integer
+260: (+, [259], [258]) tipo: Integer
+261: (*, [260], 2) tipo: Integer
+262: (operacion, [261], mat@x) tipo: null
+263: (-, 1, 1) tipo: Integer
+264: (chequeoFila, [263], mat@x) tipo: Integer
+265: (-, 1, 1) tipo: Integer
+266: (chequeoCol, [265], mat@x) tipo: Integer
+267: (*, [264], 3) tipo: Integer
+268: (+, [267], [266]) tipo: Integer
+269: (*, [268], 2) tipo: Integer
+270: (operacion, [269], mat@x) tipo: null
+271: (/, [262], [270]) tipo: Integer
+272: (-, 1, 1) tipo: Integer
+273: (chequeoFila, [272], mat@x) tipo: Integer
+274: (-, 2, 1) tipo: Integer
+275: (chequeoCol, [274], mat@x) tipo: Integer
+276: (*, [273], 3) tipo: Integer
+277: (+, [276], [275]) tipo: Integer
+278: (*, [277], 2) tipo: Integer
+279: (operacion, [278], mat@x) tipo: null
+280: (-, [279], 1) tipo: Integer
+281: (-, 1, 1) tipo: Integer
+282: (chequeoFila, [281], mat@x) tipo: Integer
+283: (-, 1, 1) tipo: Integer
+284: (chequeoCol, [283], mat@x) tipo: Integer
+285: (*, [282], 3) tipo: Integer
+286: (+, [285], [284]) tipo: Integer
+287: (*, [286], 2) tipo: Integer
+288: (operacion, [287], mat@x) tipo: null
+289: (/, [280], [288]) tipo: Integer
+290: (+, [271], [289]) tipo: Integer
+291: (-, 1, 1) tipo: Integer
+292: (chequeoFila, [291], mat@x) tipo: Integer
+293: (-, 2, 1) tipo: Integer
+294: (chequeoCol, [293], mat@x) tipo: Integer
+295: (*, [292], 3) tipo: Integer
+296: (+, [295], [294]) tipo: Integer
+297: (*, [296], 2) tipo: Integer
+298: (operacion, [297], mat@x) tipo: null
+299: (-, [298], 1) tipo: Integer
+300: (-, 1, 1) tipo: Integer
+301: (chequeoFila, [300], mat@x) tipo: Integer
+302: (-, 2, 1) tipo: Integer
+303: (chequeoCol, [302], mat@x) tipo: Integer
+304: (*, [301], 3) tipo: Integer
+305: (+, [304], [303]) tipo: Integer
+306: (*, [305], 2) tipo: Integer
+307: (operacion, [306], mat@x) tipo: null
+308: (-, [307], 1) tipo: Integer
+309: (/, [299], [308]) tipo: Integer
+310: (+, [290], [309]) tipo: Integer
+311: (-, 1, 1) tipo: Integer
+312: (chequeoFila, [311], mat@x) tipo: Integer
+313: (-, 2, 1) tipo: Integer
+314: (chequeoCol, [313], mat@x) tipo: Integer
+315: (*, [312], 3) tipo: Integer
+316: (+, [315], [314]) tipo: Integer
+317: (*, [316], 2) tipo: Integer
+318: (operacion, [317], mat@x) tipo: null
+319: (-, 1, 1) tipo: Integer
+320: (chequeoFila, [319], mat@x) tipo: Integer
+321: (-, 2, 1) tipo: Integer
+322: (chequeoCol, [321], mat@x) tipo: Integer
+323: (*, [320], 3) tipo: Integer
+324: (+, [323], [322]) tipo: Integer
+325: (*, [324], 2) tipo: Integer
+326: (operacion, [325], mat@x) tipo: null
+327: (-, [326], 1) tipo: Integer
+328: (/, [318], [327]) tipo: Integer
+329: (+, [310], [328]) tipo: Integer
+330: (inttouint, [329], -) tipo: Uinteger
+331: (:=, h, [330]) tipo: Uinteger
+332: (:=, e, 6) tipo: Integer
+333: (inttouint, e, -) tipo: Uinteger
+334: (=, h, [333]) tipo: Uinteger
+335: (B!=, [334], (338)) tipo: null
+336: (PRINT, es_6_matriz_completa__DIVISION_INTEGER, -) tipo: null
+337: (BI, (340), -) tipo: null
+Label338
+339: (PRINT, NO_es_6_matriz_completa_DIVISION_INTEGER_no_anda, -) tipo: null
+Label340
+341: (-, 1, 1) tipo: Integer
+342: (chequeoFila, [341], mat@y) tipo: Integer
+343: (-, 1, 1) tipo: Integer
+344: (chequeoCol, [343], mat@y) tipo: Integer
+345: (*, [342], 3) tipo: Integer
+346: (+, [345], [344]) tipo: Integer
+347: (*, [346], 2) tipo: Integer
+348: (operacion, [347], mat@y) tipo: null
+349: (:=, [348], 1) tipo: Uinteger
+350: (-, 1, 1) tipo: Integer
+351: (chequeoFila, [350], mat@y) tipo: Integer
+352: (-, 2, 1) tipo: Integer
+353: (chequeoCol, [352], mat@y) tipo: Integer
+354: (*, [351], 3) tipo: Integer
+355: (+, [354], [353]) tipo: Integer
+356: (*, [355], 2) tipo: Integer
+357: (operacion, [356], mat@y) tipo: null
+358: (:=, [357], 2) tipo: Uinteger
+359: (-, 1, 1) tipo: Integer
+360: (chequeoFila, [359], mat@y) tipo: Integer
+361: (-, 2, 1) tipo: Integer
+362: (chequeoCol, [361], mat@y) tipo: Integer
+363: (*, [360], 3) tipo: Integer
+364: (+, [363], [362]) tipo: Integer
+365: (*, [364], 2) tipo: Integer
+366: (operacion, [365], mat@y) tipo: null
+367: (-, 1, 1) tipo: Integer
+368: (chequeoFila, [367], mat@y) tipo: Integer
+369: (-, 1, 1) tipo: Integer
+370: (chequeoCol, [369], mat@y) tipo: Integer
+371: (*, [368], 3) tipo: Integer
+372: (+, [371], [370]) tipo: Integer
+373: (*, [372], 2) tipo: Integer
+374: (operacion, [373], mat@y) tipo: null
+375: (/, [366], [374]) tipo: Uinteger
+376: (-, 1, 1) tipo: Integer
+377: (chequeoFila, [376], mat@y) tipo: Integer
+378: (-, 2, 1) tipo: Integer
+379: (chequeoCol, [378], mat@y) tipo: Integer
+380: (*, [377], 3) tipo: Integer
+381: (+, [380], [379]) tipo: Integer
+382: (*, [381], 2) tipo: Integer
+383: (operacion, [382], mat@y) tipo: null
+384: (-, [383], 1) tipo: Uinteger
+385: (-, 1, 1) tipo: Integer
+386: (chequeoFila, [385], mat@y) tipo: Integer
+387: (-, 1, 1) tipo: Integer
+388: (chequeoCol, [387], mat@y) tipo: Integer
+389: (*, [386], 3) tipo: Integer
+390: (+, [389], [388]) tipo: Integer
+391: (*, [390], 2) tipo: Integer
+392: (operacion, [391], mat@y) tipo: null
+393: (/, [384], [392]) tipo: Uinteger
+394: (+, [375], [393]) tipo: Uinteger
+395: (-, 1, 1) tipo: Integer
+396: (chequeoFila, [395], mat@y) tipo: Integer
+397: (-, 2, 1) tipo: Integer
+398: (chequeoCol, [397], mat@y) tipo: Integer
+399: (*, [396], 3) tipo: Integer
+400: (+, [399], [398]) tipo: Integer
+401: (*, [400], 2) tipo: Integer
+402: (operacion, [401], mat@y) tipo: null
+403: (-, [402], 1) tipo: Uinteger
+404: (-, 1, 1) tipo: Integer
+405: (chequeoFila, [404], mat@y) tipo: Integer
+406: (-, 2, 1) tipo: Integer
+407: (chequeoCol, [406], mat@y) tipo: Integer
+408: (*, [405], 3) tipo: Integer
+409: (+, [408], [407]) tipo: Integer
+410: (*, [409], 2) tipo: Integer
+411: (operacion, [410], mat@y) tipo: null
+412: (-, [411], 1) tipo: Uinteger
+413: (/, [403], [412]) tipo: Uinteger
+414: (+, [394], [413]) tipo: Uinteger
+415: (-, 1, 1) tipo: Integer
+416: (chequeoFila, [415], mat@y) tipo: Integer
+417: (-, 2, 1) tipo: Integer
+418: (chequeoCol, [417], mat@y) tipo: Integer
+419: (*, [416], 3) tipo: Integer
+420: (+, [419], [418]) tipo: Integer
+421: (*, [420], 2) tipo: Integer
+422: (operacion, [421], mat@y) tipo: null
+423: (-, 1, 1) tipo: Integer
+424: (chequeoFila, [423], mat@y) tipo: Integer
+425: (-, 2, 1) tipo: Integer
+426: (chequeoCol, [425], mat@y) tipo: Integer
+427: (*, [424], 3) tipo: Integer
+428: (+, [427], [426]) tipo: Integer
+429: (*, [428], 2) tipo: Integer
+430: (operacion, [429], mat@y) tipo: null
+431: (-, [430], 1) tipo: Uinteger
+432: (/, [422], [431]) tipo: Uinteger
+433: (+, [414], [432]) tipo: Uinteger
+434: (:=, h, [433]) tipo: Uinteger
+435: (:=, e, 6) tipo: Integer
+436: (inttouint, e, -) tipo: Uinteger
+437: (=, h, [436]) tipo: Uinteger
+438: (B!=, [437], (441)) tipo: null
+439: (PRINT, es_6_matriz_completa__DIVISION_UINTEGER, -) tipo: null
+440: (BI, (443), -) tipo: null
+Label441
+442: (PRINT, NO_es_6_matriz_completa_DIVISION_UINTEGER_no_anda, -) tipo: null
+Label443

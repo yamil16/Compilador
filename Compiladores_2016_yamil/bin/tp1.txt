@@ -1,0 +1,63 @@
+programa
+
+integer a, b,e,f;
+uinteger c, d,g,h;
+integer matrix x[_i3][_i4] {_i5, _i2, _i1; _i3, _i4, _i6}; &&@1asd
+uinteger matrix y[_i3][_i4] {_ui5, _ui2, _ui1; _ui3, _ui4, _ui6}; &&@1asd
+allow uinteger to integer;
+{
+
+b:= _i1;
+f:=_i0;
+for (a := _i1; b < a; a--){ 
+	for (e := _i1; b < e; e--) 
+		x[a][e]:=f;
+	f:=f+_i1;
+}
+
+x[_i1][_i1]:=_i2;
+x[_i1][_i2]:=_i1;
+print ("empiezo a operar");
+h:=x[_i1][_i1]* x[_i1][_i2]  +  x[_i1][_i1]-- * x[_i1][_i2] +  x[_i1][_i1]-- * x[_i1][_i1]-- + x[_i1][_i1]* x[_i1][_i1]--;
+e := _i6;
+if (h = e)
+	print ("es 6 matriz completa  MULTIPLICACIONES INTEGER");
+else
+	print ("NO es 6 matriz completa MULTIPLICACIONES INTEGER");
+endif;
+
+y[_i1][_i1]:=_ui2;
+y[_i1][_i2]:=_ui1;
+
+h := y[_i1][_i1]* y[_i1][_i2] +y[_i1][_i1]-- * y[_i1][_i2]+ y[_i1][_i1]-- * y[_i1][_i1]-- + y[_i1][_i1]* y[_i1][_i1]--;
+e := _i6;
+if (h = e)
+	print ("es 6 matriz completa MULTIPLICACIONES UINTEGER");
+else
+	print ("NO es 6 matriz completa MULTIPLICACIONES UINTEGER no anda");
+endif;
+
+x[_i1][_i2]:=_i2;
+x[_i1][_i1]:=_i1;
+
+h:=x[_i1][_i2] / x[_i1][_i1]  +  x[_i1][_i2]-- / x[_i1][_i1] + x[_i1][_i2]-- / x[_i1][_i2]-- + x[_i1][_i2]/ x[_i1][_i2]--;
+e := _i6;
+if (h = e)
+	print ("es 6 matriz completa  DIVISION INTEGER");
+else
+	print ("NO es 6 matriz completa DIVISION INTEGER no anda");
+endif;
+
+y[_i1][_i1]:=_ui1;
+y[_i1][_i2]:=_ui2;
+
+h:=y[_i1][_i2] / y[_i1][_i1]  +  y[_i1][_i2]-- / y[_i1][_i1] + y[_i1][_i2]-- / y[_i1][_i2]-- + y[_i1][_i2]/ y[_i1][_i2]--;
+e := _i6;
+if (h = e)
+	print ("es 6 matriz completa  DIVISION UINTEGER");
+else
+	print ("NO es 6 matriz completa DIVISION UINTEGER no anda");
+endif;
+
+
+}

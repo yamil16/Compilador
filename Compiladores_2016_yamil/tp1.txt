@@ -1,0 +1,16 @@
+programa
+integer a,b,c,d;
+uinteger y,x,z;
+{
+y:= _ui1;
+x:= _ui1;
+z:= _ui1;
+a:= _i-1;
+b:= _i2;
+c:= _i4;
+d:= _i6;
+a := b-- ;
+
+
+
+}

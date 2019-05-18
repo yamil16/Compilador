@@ -1,0 +1,33 @@
+programa
+integer a, b, c, d, f;
+integer h, i, y;
+integer matrix x[_i2][_i2] {_i3, _i5;_i2, _i1}; &&@0asd
+allow uinteger to integer;
+
+{
+a := _i-2;
+b := _i3;
+f := _i4;
+a := _i1 + _i-1;
+i := _i5;
+h := i--;
+for (a := _i3; b > a; a--) 
+	a := b + f + b-- - _i4 + _i6;
+if (a > i - i)
+	print ("veintiseis mayor veinticinco");
+else
+	print ("NO veintiseis mayor veinticinco");
+endif;
+i := _i6;
+if (_ui2+_ui2-_ui2-_ui2 = i)
+	print ("seis UUUigual seis");
+else
+	print("saque mal las cuentas UUU");
+endif;
+
+if (_i2+_i-2+_i-2-_i2 = i)
+	print ("seis igual seis");
+else
+	print("saque mal las cuentas");
+endif;
+}

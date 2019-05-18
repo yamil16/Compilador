@@ -1,0 +1,37 @@
+programa
+integer a, b, c, d, f;
+integer h, i, y;
+uinteger z;
+allow uinteger to integer;
+
+{
+z := _i2;
+z := _i1;
+a := _i-2;
+b := _i3;
+f := _i4;
+a := _i1 * _i-1;
+i := _ui5 * _ui2;
+h := i--;
+for (a := _i5; b < a; a--) 
+	print("bien tres veces");
+
+a := b * f + b-- * _i4 + _i6;
+if (a > i * i)
+	print ("veintiseis mayor veinticinco");
+else
+	print ("NO veintiseis mayor veinticinco");
+endif;
+i := _i6;
+if (_ui2*_ui2*_ui2 = i + _ui2)
+	print ("seis UUUigual seis");
+else
+	print("saque mal las cuentas UUU");
+endif;
+
+if (_i2*_i-2*_i-2-_i2 = i)
+	print ("seis igual seis");
+else
+	print("saque mal las cuentas");
+endif;
+}

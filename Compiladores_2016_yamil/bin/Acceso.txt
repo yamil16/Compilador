@@ -1,0 +1,18 @@
+public void GenerarAssemblerAcceso (Terceto t, PrintWriter arc) throws IOException {
+		String NroTercetoLexemaOperando2=t.getOperando2().getLexemaGeneradorNumero();
+		int nroTercetoOperando2=	(Integer.parseInt(NroTercetoLexemaOperando2.substring(1,NroTercetoLexemaOperando2.length()-1)));	
+		int nroRegistroTercetoOperando2=listaTercetos.get(nroTercetoOperando2).getRegistro();		
+		String nombreRegistroTercetoOperando2=getNombreRegistro(nroRegistroTercetoOperando2);
+		arc.append("MOV si,"+nombreRegistroTercetoOperando2+"X" + "\r\n");
+	}
+	
+public void GenerarChequeoFila (Terceto t, PrintWriter arc) throws IOException {
+		String NroTercetoLexemaOperando1=t.getOperando2().getLexemaGeneradorNumero();
+		int nroTercetoOperando1=	(Integer.parseInt(NroTercetoLexemaOperando2.substring(1,NroTercetoLexemaOperando2.length()-1)));	
+		int nroRegistroTercetoOperando1=listaTercetos.get(nroTercetoOperando2).getRegistro();		
+		String nombreRegistroTercetoOperando1=getNombreRegistro(nroRegistroTercetoOperando2);
+		String NroTercetoLexemaOperando2=t.getOperando2().getLexemaGeneradorNumero();
+		relleno por que no tenia el codigo
+		arc.append("CMP "nombreRegistroTercetoOperando1"X,"+ValordelaMatriz+ + "\r\n");
+		arc.append("JS MATRIZ_FUERA_RANGO");
+} 
